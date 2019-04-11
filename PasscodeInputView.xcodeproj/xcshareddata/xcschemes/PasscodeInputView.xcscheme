@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C506E2B225D96F200ABFAC0"
-               BuildableName = "Test.app"
-               BlueprintName = "Test"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BuildableName = "PasscodeInputView.app"
+               BlueprintName = "PasscodeInputView"
+               ReferencedContainer = "container:PasscodeInputView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C506E2B225D96F200ABFAC0"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BuildableName = "PasscodeInputView.app"
+            BlueprintName = "PasscodeInputView"
+            ReferencedContainer = "container:PasscodeInputView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C506E2B225D96F200ABFAC0"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BuildableName = "PasscodeInputView.app"
+            BlueprintName = "PasscodeInputView"
+            ReferencedContainer = "container:PasscodeInputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C506E2B225D96F200ABFAC0"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BuildableName = "PasscodeInputView.app"
+            BlueprintName = "PasscodeInputView"
+            ReferencedContainer = "container:PasscodeInputView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

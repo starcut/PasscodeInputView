@@ -1,6 +1,6 @@
 //
-//  TestUITests.swift
-//  TestUITests
+//  PasscodeInputViewUITests.swift
+//  PasscodeInputViewUITests
 //
 //  Created by 清水 脩輔 on 2019/04/10.
 //  Copyright © 2019 清水 脩輔. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class TestUITests: XCTestCase {
+class PasscodeInputViewUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

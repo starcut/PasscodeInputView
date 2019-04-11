@@ -38,17 +38,17 @@
 
 /* Begin PBXFileReference section */
 		7C05BEB2225F096800CF038E /* PasscodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeTextField.swift; sourceTree = "<group>"; };
-		7C506E2C225D96F200ABFAC0 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C506E2C225D96F200ABFAC0 /* PasscodeInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasscodeInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C506E2F225D96F200ABFAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C506E31225D96F200ABFAC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C506E34225D96F200ABFAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C506E36225D96F200ABFAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C506E39225D96F200ABFAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C506E3B225D96F200ABFAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C506E40225D96F200ABFAC0 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C506E40225D96F200ABFAC0 /* PasscodeInputViewPasscodeInputViews.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasscodeInputViewPasscodeInputViews.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C506E44225D96F200ABFAC0 /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
 		7C506E46225D96F200ABFAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C506E4B225D96F200ABFAC0 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C506E4B225D96F200ABFAC0 /* PasscodeInputViewUIPasscodeInputViews.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasscodeInputViewUIPasscodeInputViews.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C506E4F225D96F200ABFAC0 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		7C506E51225D96F200ABFAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C74CB5C225EF1B800D093E0 /* PasscodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasscodeView.xib; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 		7C506E23225D96F200ABFAC0 = {
 			isa = PBXGroup;
 			children = (
-				7C506E2E225D96F200ABFAC0 /* Test */,
-				7C506E43225D96F200ABFAC0 /* TestTests */,
-				7C506E4E225D96F200ABFAC0 /* TestUITests */,
+				7C506E2E225D96F200ABFAC0 /* PasscodeInputView */,
+				7C506E43225D96F200ABFAC0 /* PasscodeInputViewTests */,
+				7C506E4E225D96F200ABFAC0 /* PasscodeInputViewUITests */,
 				7C506E2D225D96F200ABFAC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +93,14 @@
 		7C506E2D225D96F200ABFAC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C506E2C225D96F200ABFAC0 /* Test.app */,
-				7C506E40225D96F200ABFAC0 /* TestTests.xctest */,
-				7C506E4B225D96F200ABFAC0 /* TestUITests.xctest */,
+				7C506E2C225D96F200ABFAC0 /* PasscodeInputView.app */,
+				7C506E40225D96F200ABFAC0 /* PasscodeInputViewPasscodeInputViews.xctest */,
+				7C506E4B225D96F200ABFAC0 /* PasscodeInputViewUIPasscodeInputViews.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C506E2E225D96F200ABFAC0 /* Test */ = {
+		7C506E2E225D96F200ABFAC0 /* PasscodeInputView */ = {
 			isa = PBXGroup;
 			children = (
 				7C506E2F225D96F200ABFAC0 /* AppDelegate.swift */,
@@ -112,25 +112,25 @@
 				7C506E38225D96F200ABFAC0 /* LaunchScreen.storyboard */,
 				7C506E3B225D96F200ABFAC0 /* Info.plist */,
 			);
-			path = Test;
+			path = PasscodeInputView;
 			sourceTree = "<group>";
 		};
-		7C506E43225D96F200ABFAC0 /* TestTests */ = {
+		7C506E43225D96F200ABFAC0 /* PasscodeInputViewTests */ = {
 			isa = PBXGroup;
 			children = (
 				7C506E44225D96F200ABFAC0 /* TestTests.swift */,
 				7C506E46225D96F200ABFAC0 /* Info.plist */,
 			);
-			path = TestTests;
+			path = PasscodeInputViewTests;
 			sourceTree = "<group>";
 		};
-		7C506E4E225D96F200ABFAC0 /* TestUITests */ = {
+		7C506E4E225D96F200ABFAC0 /* PasscodeInputViewUITests */ = {
 			isa = PBXGroup;
 			children = (
 				7C506E4F225D96F200ABFAC0 /* TestUITests.swift */,
 				7C506E51225D96F200ABFAC0 /* Info.plist */,
 			);
-			path = TestUITests;
+			path = PasscodeInputViewUITests;
 			sourceTree = "<group>";
 		};
 		7C74CB5B225EF1B800D093E0 /* View */ = {
@@ -153,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C506E2B225D96F200ABFAC0 /* Test */ = {
+		7C506E2B225D96F200ABFAC0 /* PasscodeInputView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C506E54225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 7C506E54225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "PasscodeInputView" */;
 			buildPhases = (
 				7C506E28225D96F200ABFAC0 /* Sources */,
 				7C506E29225D96F200ABFAC0 /* Frameworks */,
@@ -165,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = PasscodeInputView;
 			productName = Test;
-			productReference = 7C506E2C225D96F200ABFAC0 /* Test.app */;
+			productReference = 7C506E2C225D96F200ABFAC0 /* PasscodeInputView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7C506E3F225D96F200ABFAC0 /* TestTests */ = {
+		7C506E3F225D96F200ABFAC0 /* PasscodeInputViewPasscodeInputViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C506E57225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "TestTests" */;
+			buildConfigurationList = 7C506E57225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "PasscodeInputViewPasscodeInputViews" */;
 			buildPhases = (
 				7C506E3C225D96F200ABFAC0 /* Sources */,
 				7C506E3D225D96F200ABFAC0 /* Frameworks */,
@@ -183,14 +183,14 @@
 			dependencies = (
 				7C506E42225D96F200ABFAC0 /* PBXTargetDependency */,
 			);
-			name = TestTests;
+			name = PasscodeInputViewPasscodeInputViews;
 			productName = TestTests;
-			productReference = 7C506E40225D96F200ABFAC0 /* TestTests.xctest */;
+			productReference = 7C506E40225D96F200ABFAC0 /* PasscodeInputViewPasscodeInputViews.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7C506E4A225D96F200ABFAC0 /* TestUITests */ = {
+		7C506E4A225D96F200ABFAC0 /* PasscodeInputViewUIPasscodeInputViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C506E5A225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "TestUITests" */;
+			buildConfigurationList = 7C506E5A225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "PasscodeInputViewUIPasscodeInputViews" */;
 			buildPhases = (
 				7C506E47225D96F200ABFAC0 /* Sources */,
 				7C506E48225D96F200ABFAC0 /* Frameworks */,
@@ -201,9 +201,9 @@
 			dependencies = (
 				7C506E4D225D96F200ABFAC0 /* PBXTargetDependency */,
 			);
-			name = TestUITests;
+			name = PasscodeInputViewUIPasscodeInputViews;
 			productName = TestUITests;
-			productReference = 7C506E4B225D96F200ABFAC0 /* TestUITests.xctest */;
+			productReference = 7C506E4B225D96F200ABFAC0 /* PasscodeInputViewUIPasscodeInputViews.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C506E27225D96F200ABFAC0 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 7C506E27225D96F200ABFAC0 /* Build configuration list for PBXProject "PasscodeInputView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C506E2B225D96F200ABFAC0 /* Test */,
-				7C506E3F225D96F200ABFAC0 /* TestTests */,
-				7C506E4A225D96F200ABFAC0 /* TestUITests */,
+				7C506E2B225D96F200ABFAC0 /* PasscodeInputView */,
+				7C506E3F225D96F200ABFAC0 /* PasscodeInputViewPasscodeInputViews */,
+				7C506E4A225D96F200ABFAC0 /* PasscodeInputViewUIPasscodeInputViews */,
 			);
 		};
 /* End PBXProject section */
@@ -310,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		7C506E42225D96F200ABFAC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C506E2B225D96F200ABFAC0 /* Test */;
+			target = 7C506E2B225D96F200ABFAC0 /* PasscodeInputView */;
 			targetProxy = 7C506E41225D96F200ABFAC0 /* PBXContainerItemProxy */;
 		};
 		7C506E4D225D96F200ABFAC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7C506E2B225D96F200ABFAC0 /* Test */;
+			target = 7C506E2B225D96F200ABFAC0 /* PasscodeInputView */;
 			targetProxy = 7C506E4C225D96F200ABFAC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,14 +463,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HMSQF89AJ;
-				INFOPLIST_FILE = Test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				DEVELOPMENT_TEAM = 3NN78ZST83;
+				INFOPLIST_FILE = "$(SRCROOT)/PasscodeInputView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-himizu.PasscodeInputView";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.seeking-star.PasscodeInputView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,14 +482,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HMSQF89AJ;
-				INFOPLIST_FILE = Test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				DEVELOPMENT_TEAM = 3NN78ZST83;
+				INFOPLIST_FILE = "$(SRCROOT)/PasscodeInputView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.s-himizu.PasscodeInputView";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.seeking-star.PasscodeInputView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -513,7 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasscodeInputView.app/PasscodeInputView";
 			};
 			name = Debug;
 		};
@@ -534,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasscodeInputView.app/PasscodeInputView";
 			};
 			name = Release;
 		};
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C506E27225D96F200ABFAC0 /* Build configuration list for PBXProject "Test" */ = {
+		7C506E27225D96F200ABFAC0 /* Build configuration list for PBXProject "PasscodeInputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C506E52225D96F200ABFAC0 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C506E54225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		7C506E54225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "PasscodeInputView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C506E55225D96F200ABFAC0 /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C506E57225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
+		7C506E57225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "PasscodeInputViewPasscodeInputViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C506E58225D96F200ABFAC0 /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C506E5A225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
+		7C506E5A225D96F200ABFAC0 /* Build configuration list for PBXNativeTarget "PasscodeInputViewUIPasscodeInputViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C506E5B225D96F200ABFAC0 /* Debug */,
